@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+    padding: 0px;
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+.row{
+    width: 100%;
+}
+@media (min-width: 992px){
+    .col-lg-4 {
+        width: 30%;
+    }
+    div{
+        margin: 8px;
+    }
+}
+@media (min-width: 992px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, 
+    .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
+    .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+        float: left;
+        border: 2px solid black;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+    .col-md-6 {
+        width: 47%;
+    }
+    div.col-md-6{
+        margin-right:18px;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    div.col-md-12{
+        margin-top:18px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4,
+    .col-md-5, .col-md-6, .col-md-7, .col-md-8,
+    .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+        float: left;
+        border: 2px solid black;
+    }
+}
+@media (max-width: 767px){
+    .col-sm-12 {
+        width: 100%;
+    }
+    div.col-sm-12{
+        margin-bottom: 20px;
+    }
+}    
+@media (max-width: 767px){
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4,
+    .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
+    .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+        border: 2px solid black;
+    }
+}
+
+section {
+    border: 2px solid black;
+    background-color: darkgrey;
+    padding: 0px;
+}
+.chicken{
+    background-color: rgb(300,120,100);
+}
+.beef{
+    background-color: rgb(500, 50, 50);
+}
+.sushi{
+    background-color: burlywood;
+    margin: 0px;
+} 
+section>h2 {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    height: 45px;
+    padding-top: 5px;
+}
+section>p {
+    padding: 35px 10px 10px 10px;
+}
